@@ -1,5 +1,7 @@
 import pandas as pd
 
+#pip install pandas openpyxl if needed
+
 # Create a new DataFrame for the CookingOil sheet
 columns = ['Ref', 'Category', 'Month', 'Year', 'Date', 'Building', 'Tonnage', 'Waste Type', 'Vendor', 'Cost', 'Avoided cost', 'Waste Stream', 'Weight(lbs)']
 data = []
